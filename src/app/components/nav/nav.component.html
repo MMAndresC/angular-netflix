@@ -1,0 +1,22 @@
+
+<nav>
+    <img class='logo-fakeflix' src="{{navBar.logo.src}}" alt="{{navBar.logo.alt}}"/>
+    <div class="container-option-menu">
+        <img  class='icon-responsive' src="{{navBar.menuIcon.image.src}}" alt="{{navBar.menuIcon.image.alt}}" />
+        <ul class="option-menu">
+            <li *ngFor="let option of navBar.optionsMenu">
+                <a href="{{option.link}}">{{option.title}}</a>
+            </li>
+        </ul>
+    </div>
+    <ul class="option-client">
+        <li *ngFor="let option of navBar.optionsClient">
+            <img src="{{option.src}}" alt="{{option.alt}}"/>
+        </li>
+    </ul>
+    <ul class="login-client">
+        <li *ngFor="let option of navBar.loginClient">
+            <img src="{{option.src}}" alt="{{option.alt}}"/>
+        </li>
+    </ul>
+</nav>

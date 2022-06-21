@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+//RESET
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    list-style-type: none;
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+//PALETTE
+
+:root{
+    --background: #141414;
+    --font-color: #fff;
+}
+
+//GLOBAL STYLES
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Miltonian&family=Miltonian+Tattoo&display=swap');
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--font-color);
+    background-color: var(--background);
+    scroll-behavior: smooth;
+}
+
+
