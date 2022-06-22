@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { FilmsInterface } from './../../models/netflix.interfaces';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-hero',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent implements OnInit {
-
+  @Input() public films!: FilmsInterface;
   constructor() { }
 
   ngOnInit(): void {

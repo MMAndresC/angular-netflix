@@ -1,1 +1,16 @@
-<p>hero works!</p>
+
+<main>
+<section class="preview">
+    <img src="../../../assets/images/preview.jpg" alt=""/>
+</section>
+
+<section id='top' class="top">
+    <h2>{{films.title}}</h2>
+    <ul class="films-top5">
+        <li *ngFor="let film of films.gallery; let i = index;">
+            <span>{{i+1}}</span>
+            <img src="{{film.src}}" alt="{{film.alt}}"/>
+        </li>
+    </ul>
+</section>
+</main>

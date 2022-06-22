@@ -1,1 +1,12 @@
-<p>films works!</p>
+
+<section>
+
+    <h2>{{films.title}}</h2>
+    <ul id="{{films.title}}">   
+        <li *ngFor="let film of films.gallery;">
+            <img src="{{film.src}}" alt="{{film.alt}}"/>
+        </li>
+    </ul>
+
+
+</section>

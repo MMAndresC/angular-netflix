@@ -7,6 +7,11 @@ export interface NavInterface{
     loginClient: ImageInterface[];
 }
 
+export interface FilmsInterface{
+    title: string;
+    gallery: ImageInterface[];
+}
+
 
 export interface LinksInterface{
     title: string;

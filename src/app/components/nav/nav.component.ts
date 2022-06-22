@@ -31,11 +31,11 @@ export class NavComponent implements OnInit {
       },
       {
         title: 'Sci-Fi',
-        link: '#scifi'
+        link: '#sci-fi'
       },
       {
-        title: 'Terror',
-        link: '#terror'
+        title: 'Accion',
+        link: '#accion'
       },
       {
         title: 'Drama',
